@@ -1,6 +1,8 @@
 Pages\ChallengeMe\ParticipantPage.class
 common\Config.class
+constants\Constant$UserData.class
 Pages\ChallengeMe\HomePage.class
+Pages\ChallengeMe\ChallengePage.class
 constants\Constant$Urls.class
 constants\Constant.class
 Pages\base\BasePage.class

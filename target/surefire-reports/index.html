@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,27 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.create.createChallengeTest" class="method navigator-link" hash-for-method="checkCreateChallenge">checkCreateChallenge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.challenge.challengeTest" class="method navigator-link" hash-for-method="checkEnrollOnce">checkEnrollOnce</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.challenge.challengeTest" class="method navigator-link" hash-for-method="checkEnrollTwice">checkEnrollTwice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="tests.login.LoginTest" class="method navigator-link" hash-for-method="checkLogin">checkLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.register.RegisterTest" class="method navigator-link" hash-for-method="checkRegister">checkRegister</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -120,6 +140,21 @@
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">tests.register.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRegister">
+                  </a> <!-- checkRegister -->
+                  <span class="method-name">checkRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">tests.login.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,6 +163,43 @@
                   <a name="checkLogin">
                   </a> <!-- checkLogin -->
                   <span class="method-name">checkLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.challenge.challengeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEnrollOnce">
+                  </a> <!-- checkEnrollOnce -->
+                  <span class="method-name">checkEnrollOnce</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEnrollTwice">
+                  </a> <!-- checkEnrollTwice -->
+                  <span class="method-name">checkEnrollTwice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.create.createChallengeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCreateChallenge">
+                  </a> <!-- checkCreateChallenge -->
+                  <span class="method-name">checkCreateChallenge</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,11 +214,26 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;C:/Users/arail/Desktop/Astana IT University/TestingFinalFramework&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1:LoginTest&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.login.LoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- C:/Users/arail/Desktop/Astana IT University/TestingFinalFramework --&gt;
+  &lt;/test&gt; &lt;!-- Test1:LoginTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2:challengeTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.challenge.challengeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2:challengeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test3:createTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.create.createChallengeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3:createTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test4:registerTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.register.RegisterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test4:registerTest --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -158,7 +245,16 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">C:/Users/arail/Desktop/Astana IT University/TestingFinalFramework (1 class)</span>
+                <span class="test-name">Test1:LoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2:challengeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3:createTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test4:registerTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,16 +280,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkLogin')
-data.setCell(0, 2, 'tests.login.LoginTest')
-data.setCell(0, 3, 3447);
+data.setCell(0, 1, 'checkCreateChallenge')
+data.setCell(0, 2, 'tests.create.createChallengeTest')
+data.setCell(0, 3, 10412);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkEnrollOnce')
+data.setCell(1, 2, 'tests.challenge.challengeTest')
+data.setCell(1, 3, 10160);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkRegister')
+data.setCell(2, 2, 'tests.register.RegisterTest')
+data.setCell(2, 3, 2810);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkLogin')
+data.setCell(3, 2, 'tests.login.LoginTest')
+data.setCell(3, 3, 2502);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkEnrollTwice')
+data.setCell(4, 2, 'tests.challenge.challengeTest')
+data.setCell(4, 3, 486);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -224,9 +336,34 @@ return data;
                 <span class="method-name">checkLogin</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.challenge.challengeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkEnrollOnce</span>
+                <span class="method-start">2930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkEnrollTwice</span>
+                <span class="method-start">13093 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.create.createChallengeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkCreateChallenge</span>
+                <span class="method-start">13608 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.register.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkRegister</span>
+                <span class="method-start">24051 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">close</span>
-                <span class="method-start">3845 ms</span>
+                <span class="method-start">26893 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

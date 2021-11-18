@@ -1,2 +1,5 @@
-tests\base\BaseTest.class
 tests\login\LoginTest.class
+tests\challenge\challengeTest.class
+tests\create\createChallengeTest.class
+tests\register\RegisterTest.class
+tests\base\BaseTest.class

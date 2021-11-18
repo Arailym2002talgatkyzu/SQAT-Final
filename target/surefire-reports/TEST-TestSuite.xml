@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="18.733" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="39.046" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -60,5 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="checkLogin" classname="tests.login.LoginTest" time="3.445"/>
+  <testcase name="checkLogin" classname="tests.login.LoginTest" time="2.501"/>
+  <testcase name="checkEnrollOnce" classname="tests.challenge.challengeTest" time="10.158"/>
+  <testcase name="checkEnrollTwice" classname="tests.challenge.challengeTest" time="0.486"/>
+  <testcase name="checkCreateChallenge" classname="tests.create.createChallengeTest" time="10.413"/>
+  <testcase name="checkRegister" classname="tests.register.RegisterTest" time="2.81"/>
 </testsuite>

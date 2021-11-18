@@ -1,7 +1,6 @@
 package tests.base;
 
-import Pages.ChallengeMe.HomePage;
-import Pages.ChallengeMe.LoginPage;
+import Pages.ChallengeMe.*;
 import Pages.base.BasePage;
 import common.CommonActions;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +13,9 @@ public class BaseTest {
     protected BasePage basePage = new BasePage(driver);
     protected LoginPage loginPage = new LoginPage(driver);
     protected HomePage homePage = new HomePage(driver);
+    protected RegisterPage registerPage=new RegisterPage(driver);
+    protected ChallengePage challengePage=new ChallengePage(driver);
+    protected CreateChallengePage createChallengePage=new CreateChallengePage(driver);
 
     @AfterSuite(alwaysRun = true)
     public void close(){

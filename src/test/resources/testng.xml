@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test preserve-order="true" name="C:/Users/arail/Desktop/Astana IT University/TestingFinalFramework">
-        <classes><class name="tests.login.LoginTest"/>
+
+    <test name="Test1:LoginTest">
+        <classes>
+            <class name="tests.login.LoginTest"></class>
         </classes>
     </test>
+
+    <test name="Test2:challengeTest">
+        <classes>
+            <class name="tests.challenge.challengeTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test3:createTest">
+        <classes>
+            <class name="tests.create.createChallengeTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test4:registerTest">
+        <classes>
+            <class name="tests.register.RegisterTest"></class>
+        </classes>
+    </test>
+
 </suite>

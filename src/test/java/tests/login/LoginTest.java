@@ -10,9 +10,9 @@ public class LoginTest extends BaseTest {
     private final String pass="123456";
 
     @Test
-    public void checkLogin() throws InterruptedException {
+    public void checkLogin() {
         basePage.open(CHALLENGE_ME);
         loginPage.login(email, pass);
-        homePage.checkIsPageCorrect();
+        homePage.isPageCorrect("Welcome Page");
     }
 }
